@@ -8,7 +8,9 @@ $('body').prepend($h2a);
 $('body').prepend($ul);
 
 below.forEach(function (veg) {
+
   var $li = $('<li>');
+
   $li.html(veg);
   $ul.append($li);
 });
